@@ -2,6 +2,18 @@ body {
     background: #fff!important;
 }
 
+#header {
+    background: #333!important;
+}
+
+#header .login a {
+    color: #fff!important;
+}
+
+#header .login a:hover {
+    color: #ccc!important;
+}
+
 #main-panel > ul:nth-child(8) > li > img {
     margin-right: 10px;
     margin-bottom: 10px;
@@ -247,9 +259,6 @@ td.inactive:hover {
 }
 
 #main-panel {
-    border-left: 1px solid #ddd!important;
-    padding: 10px!important;
-    margin-left: 10px!important;
     height: 100%!important;
     float: right!important;
 }
@@ -289,10 +298,6 @@ table {
 
 #side-panel tr {
     border: none!important;
-}
-
-.pane {
-    margin-top: 15px!important;
 }
 
 .subtasks,.task {
