@@ -256,6 +256,7 @@ td.inactive:hover {
     padding-right: 0!important;
     height: 100%!important;
     position: absolute!important;
+    overflow: auto;
 }
 
 #main-panel {
@@ -291,13 +292,28 @@ table {
     overflow: auto;
 }
 
-#side-panel div {
-    padding-top: 3px;
-    padding-bottom: 3px;
-}
-
 #side-panel tr {
     border: none!important;
+}
+
+.build-row-cell {
+    padding-top: 8px 3px;
+}
+
+.build-row-cell .build-badge {
+    text-align: left;
+    margin-left: 54px;
+}
+
+.build-row-cell .build-badge span {
+    background: #505050;
+    color: #fff;
+    border: 0;
+    margin-left: 54px;
+}
+
+.left-bar {
+    display: none;
 }
 
 .subtasks,.task {
