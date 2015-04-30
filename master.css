@@ -252,15 +252,8 @@ td.inactive:hover {
 
 #side-panel {
     background: rgba(0,0,0,.05)!important;
-    padding-left: 0!important;
-    padding-right: 0!important;
-    height: 100%!important;
-    position: absolute!important;
-}
-
-#main-panel {
-    height: 100%!important;
-    float: right!important;
+    position: absolute;
+    float: none !important;
 }
 
 table {
@@ -291,13 +284,28 @@ table {
     overflow: auto;
 }
 
-#side-panel div {
-    padding-top: 3px;
-    padding-bottom: 3px;
-}
-
 #side-panel tr {
     border: none!important;
+}
+
+.build-row.multi-line .build-row-cell .indent-multiline {
+    margin: 0 0 5px 0 !important;
+}
+
+.build-row.multi-line .build-row-cell .indent-multiline .build-badge {
+    text-align: left;
+    margin-left: 73px;
+}
+
+.build-row .build-row-cell .build-badge span {
+    background: #aaa !important;
+    color: #fff !important;
+    border: 0 !important;
+    padding: 6px !important;
+}
+
+.left-bar {
+    display: none;
 }
 
 .subtasks,.task {
