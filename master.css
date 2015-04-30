@@ -288,6 +288,10 @@ table {
     border: none!important;
 }
 
+.build-row.multi-line .build-row-cell .block {
+    overflow: hidden;
+}
+
 .build-row.multi-line .build-row-cell .indent-multiline {
     margin: 0 0 5px 0 !important;
 }
