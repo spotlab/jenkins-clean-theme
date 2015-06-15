@@ -620,7 +620,9 @@ td[style="vertical-align:middle"] a[href="ws/"] {
     background: transparent!important;
 }
 
-#main-panel h1 img {
+#main-panel h1 img,
+#tasks a[href="#"] img,
+#executors a[href="#"] img {
     display: none!important;
 }
 
