@@ -107,6 +107,7 @@ body {
 }
 
 #footer {
+    position: fixed !important;
     background: rgba(0,0,0,.04);
     color: #505050!important;
 }
